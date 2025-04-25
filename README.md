@@ -2,6 +2,12 @@
 
 I'm a Software Dev based in Indonesia. I'm passionate about Solving Problems.
 
+## Connect with Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fadhil-muhaimin88/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/autodhil/)
+
+
 <a><h2>Stats</h2></a>
 <p align="left">
 <a href="https://github.com/fadhilmuhaimin">
@@ -18,10 +24,6 @@ I'm a Software Dev based in Indonesia. I'm passionate about Solving Problems.
 
 [![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=fadhilmuhaimin&theme=radical)](https://github.com/fadhilmuhaimin)
 
-## Connect with Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fadhil-muhaimin88/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/autodhil/)
 
 ## Fun Facts
 
