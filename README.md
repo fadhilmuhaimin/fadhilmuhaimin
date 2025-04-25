@@ -2,6 +2,13 @@
 
 I'm a Software Dev based in Indonesia. I'm passionate about Solving Problems.
 
+<a><h2>Stats</h2></a>
+<p align="left">
+<a href="https://github.com/fadhilmuhaimin">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=fadhilmuhaimin&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=fadhilmuhaimin&layout=compact&langs_count=8&theme=algolia"/>
+</a>
+</p>
 
 ## Most Used Languages
 
