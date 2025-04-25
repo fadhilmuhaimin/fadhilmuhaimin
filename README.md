@@ -12,7 +12,7 @@ I'm a Software Dev based in Indonesia. I'm passionate about Solving Problems.
 
 ## GitHub Trophies
 
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=fadhilmuhaimin theme=radical)](https://github.com/your-username)
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=fadhilmuhaimin&theme=radical)](https://github.com/your-username)
 
 ## Connect with Me
 
