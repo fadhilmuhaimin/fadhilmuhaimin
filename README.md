@@ -4,7 +4,7 @@ I'm a Software Dev based in Indonesia. I'm passionate about Solving Problems.
 
 ## GitHub Stats
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical)](https://github.com/your-username)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fadhilmuhaimin&show_icons=true&theme=radical)](https://github.com/your-username)
 
 ## Most Used Languages
 
