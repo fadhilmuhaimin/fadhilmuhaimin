@@ -1,16 +1,28 @@
-## Hi there 👋
+# Hello, I'm Fadhil Muhaimin 👋
 
-<!--
-**fadhilmuhaimin/fadhilmuhaimin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a Software Dev based in Indonesia. I'm passionate about Solving Problems.
 
-Here are some ideas to get you started:
+## GitHub Stats
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical)](https://github.com/your-username)
+
+## Most Used Languages
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fadhilmuhaimin&layout=compact&theme=radical)](https://github.com/your-username)
+
+## GitHub Trophies
+
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=fadhilmuhaimintheme=radical)](https://github.com/your-username)
+
+## Connect with Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fadhil-muhaimin88/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/autodhil/)
+
+## Fun Facts
+
+- I love Cars, Buses & Planes.
+- My favorite book is Good To Great.
+- I enjoy playing Asphalt.
+
+Thanks for visiting my profile! 🌟
