@@ -4,15 +4,15 @@ I'm a Software Dev based in Indonesia. I'm passionate about Solving Problems.
 
 ## GitHub Stats
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fadhilmuhaimin&show_icons=true&theme=radical)](https://github.com/your-username)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fadhilmuhaimin&show_icons=true&theme=radical)](https://github.com/fadhilmuhaimin)
 
 ## Most Used Languages
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fadhilmuhaimin&layout=compact&theme=radical)](https://github.com/your-username)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fadhilmuhaimin&layout=compact&theme=radical)](https://github.com/fadhilmuhaimin)
 
 ## GitHub Trophies
 
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=fadhilmuhaimin&theme=radical)](https://github.com/your-username)
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=fadhilmuhaimin&theme=radical)](https://github.com/fadhilmuhaimin)
 
 ## Connect with Me
 
