@@ -1,6 +1,6 @@
 # Hello, I'm Fadhil Muhaimin 👋
 
-I'm a Software Dev based in Indonesia. I'm passionate about Solving Problems.
+I'm a Software Dev based in Indonesia
 
 ## Connect with Me
 
