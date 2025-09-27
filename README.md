@@ -16,11 +16,6 @@ I'm a Software Dev based in Indonesia
 </a>
 </p>
 
-## Most Used Languages
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fadhilmuhaimin&layout=compact&theme=radical)](https://github.com/fadhilmuhaimin)
-
-
 
 
 Thanks for visiting my profile! 🌟
