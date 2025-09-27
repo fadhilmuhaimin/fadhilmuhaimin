@@ -20,15 +20,7 @@ I'm a Software Dev based in Indonesia
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fadhilmuhaimin&layout=compact&theme=radical)](https://github.com/fadhilmuhaimin)
 
-## GitHub Trophies
-
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=fadhilmuhaimin&theme=radical)](https://github.com/fadhilmuhaimin)
 
 
-## Fun Facts
-
-- I love Cars, Buses & Planes.
-- My favorite book is Good To Great.
-- I enjoy playing Asphalt.
 
 Thanks for visiting my profile! 🌟
