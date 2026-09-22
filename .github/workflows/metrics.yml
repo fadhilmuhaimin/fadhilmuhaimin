@@ -1,0 +1,40 @@
+name: Metrics
+on:
+  schedule:
+    # 22:00 UTC = 06:00 WITA (Asia/Makassar), jalan tiap hari
+    - cron: "0 22 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  base:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: fadhilmuhaimin
+
+          # Template & layout
+          template: classic
+          base: header, activity, community, repositories
+          config_timezone: Asia/Makassar
+
+          # Top languages (pengganti top-langs card lama)
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: programming, markup
+          plugin_languages_limit: 8
+          plugin_languages_threshold: 0%
+
+          # Statistik commit/PR/issue, termasuk repo privat & organisasi
+          # (asal token di secrets.METRICS_TOKEN punya scope repo + akses org-nya)
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
