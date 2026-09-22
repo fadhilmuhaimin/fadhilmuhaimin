@@ -19,7 +19,6 @@ jobs:
           filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: fadhilmuhaimin
-          debug: yes
 
           # Template & layout
           template: classic
