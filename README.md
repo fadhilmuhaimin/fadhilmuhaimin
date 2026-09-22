@@ -13,4 +13,7 @@ I'm a Software Dev based in Indonesia
   <img src="https://raw.githubusercontent.com/fadhilmuhaimin/fadhilmuhaimin/main/github-metrics.svg" alt="Fadhil's GitHub metrics" />
 </p>
 
+**Total PR (semua repo, termasuk privat & organisasi):** <!--REAL-PR-->-<!--/REAL-PR-->
+**Total commit (semua repo, termasuk privat & organisasi):** <!--REAL-COMMITS-->-<!--/REAL-COMMITS-->
+
 Thanks for visiting my profile! 🌟

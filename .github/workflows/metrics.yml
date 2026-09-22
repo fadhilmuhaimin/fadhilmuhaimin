@@ -38,3 +38,41 @@ jobs:
           plugin_habits_charts: yes
           plugin_habits_days: 14
           plugin_habits_facts: yes
+
+      # --- Hitung total PR & commit SEBENARNYA (semua repo, privat & organisasi) ---
+      # Pakai GitHub Search API, bukan contributionsCollection, karena search API:
+      #   - tidak mengecualikan PR di repo milik sendiri
+      #   - tidak dibatasi rentang waktu ~1 tahun
+      #   - mencakup repo privat & organisasi selama token punya akses ke situ
+      # Catatan: search/commits hanya menghitung commit di default branch tiap
+      # repo (keterbatasan API), dan tidak akan mencakup repo org yang
+      # membatasi akses PAT classic.
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Hitung total PR & commit
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          PR_TOTAL=$(gh api "search/issues?q=is:pr+author:fadhilmuhaimin" --jq .total_count)
+          COMMIT_TOTAL=$(gh api -H "Accept: application/vnd.github.cloak-preview+json" \
+            "search/commits?q=author:fadhilmuhaimin" --jq .total_count)
+          echo "PR_TOTAL=$PR_TOTAL" >> "$GITHUB_ENV"
+          echo "COMMIT_TOTAL=$COMMIT_TOTAL" >> "$GITHUB_ENV"
+
+      - name: Update angka di README.md
+        run: |
+          sed -i "s|<!--REAL-PR-->.*<!--/REAL-PR-->|<!--REAL-PR-->${PR_TOTAL}<!--/REAL-PR-->|" README.md
+          sed -i "s|<!--REAL-COMMITS-->.*<!--/REAL-COMMITS-->|<!--REAL-COMMITS-->${COMMIT_TOTAL}<!--/REAL-COMMITS-->|" README.md
+
+      - name: Commit & push kalau ada perubahan
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: update total PR & commit stats"
+          git pull --rebase origin main
+          git push
